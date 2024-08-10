@@ -22,10 +22,10 @@ const MyProjectCard = ({card}) => (
       </CardDescription>
     </CardContent>
     <CardContent extra>
-      <a href={card.gitUrl} >
+      <a href={card.gitUrl} target = '_blank'>
         <Icon name='github' />
       </a>
-      <a href={card.liveViewUrl} >
+      <a href={card.liveViewUrl} target = '_blank'>
         <Icon name='th' />
       </a>
     </CardContent>
