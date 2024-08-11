@@ -30,8 +30,8 @@ function PortfolioView() {
     name:'Meet',
     image: '/images/avatar/large/matthew.png',
     descrption: 'Meet app',
-    gitUrl: '',
-    liveViewUrl: ''
+    gitUrl: 'https://github.com/javapak24/meet-app/',
+    liveViewUrl: 'https://javapak24.github.io/meet-app/'
   }
   ]
     return (
