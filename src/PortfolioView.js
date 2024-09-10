@@ -32,6 +32,20 @@ function PortfolioView() {
     descrption: 'Meet app',
     gitUrl: 'https://github.com/javapak24/meet-app/',
     liveViewUrl: 'https://javapak24.github.io/meet-app/'
+  },
+  {
+    name:'NativeChatApp',
+    image: '/images/avatar/large/matthew.png',
+    descrption: 'A chat app built with react native',
+    gitUrl: 'https://github.com/javapak24/chat-app',
+    liveViewUrl: 'https://github.com/javapak24/chat-app'
+  },
+  {
+    name:'myFlix-Angular',
+    image: '/images/avatar/large/matthew.png',
+    descrption: 'A movie app built with Angular',
+    gitUrl: 'https://github.com/javapak24/myFlix-Angular',
+    liveViewUrl: 'https://javapak24.github.io/myFlix-Angular/#/'
   }
   ]
     return (
