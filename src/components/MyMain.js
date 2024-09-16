@@ -1,4 +1,6 @@
 import React from 'react'
+import mainpic from '../portfoliopic.png'
+
 import {
     Container,
     Grid,
@@ -17,14 +19,11 @@ export default function MyMain() {
       <Grid columns={2} divided>
     <GridRow>
       <GridColumn>
-      <Image src='https://picsum.photos/id/1/200/300' size='small' circular />
+      <Image src = {mainpic} size='small' circular />
         </GridColumn>
         <GridColumn>
-        <p>
-        My name is Muhammad Java. I am a web developer from Cape Cod, Massachusetts. 
-        Growing up I enjoyed playing video games and sports like basketball and football with my brother and our cousins.
-        Now that I'm older, the love for those hobbies hasn't changed
-        I always was interested in how things worked, especially electronics, and this led to me pursuing a career in coding. 
+        <p id='main_bio'>
+        My name is Muhammad Java. I'm a web developer from Cape Cod, Massachusetts. 
         </p>
           </GridColumn>
         </GridRow>

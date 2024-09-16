@@ -15,7 +15,6 @@ const MyProjectCard = ({card}) => (
     <CardContent>
       <CardHeader>{card.name}</CardHeader>
       <CardMeta>
-        <span className='date'>Joined in 2015</span>
       </CardMeta>
       <CardDescription>
       {card.description}

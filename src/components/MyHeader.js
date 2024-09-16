@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../logo.png'
 import {
   Container,
   Image,
@@ -11,8 +12,8 @@ export default function MyHeader() {
       <Menu fixed='top' inverted>
       <Container>
         <Menu.Item as='a' href ='#/' header>
-        <Image size='mini' src='/logo.png' style={{ marginRight: '1.5em' }} />
-        Java
+        <Image size='mini' src= {logo} style={{ marginRight: '1.5em' }} />
+        Javapak
         </Menu.Item>
         <Menu.Item as='a' href="#/">Home</Menu.Item>
         <Menu.Item as='a' href="#/portfolio">Portfolio</Menu.Item>
