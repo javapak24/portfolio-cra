@@ -14,8 +14,7 @@ export default function MyMain() {
   return (
     <div>
       <Container text style={{ marginTop: '7em' }}>
-      <Header as='h1'>Hello!</Header>
-      <h1>Web Developer</h1>
+      <Header as='h1'>Muhammad Java</Header>
       <Grid columns={2} divided>
     <GridRow>
       <GridColumn>
@@ -23,7 +22,7 @@ export default function MyMain() {
         </GridColumn>
         <GridColumn>
         <p id='main_bio'>
-        My name is Muhammad Java. I'm a web developer from Cape Cod, Massachusetts. 
+        My name is Muhammad Java. I'm an up-and-coming web developer from Cape Cod, Massachusetts. This website, built with React.js, aims to portray a glimpse of me and the skills I have to offer. 
         </p>
           </GridColumn>
         </GridRow>
