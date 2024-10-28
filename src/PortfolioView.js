@@ -2,7 +2,7 @@ import { Container, Grid, GridColumn, GridRow, Header } from "semantic-ui-react"
 import MyFooter from "./components/MyFooter";
 import MyHeader from "./components/MyHeader";
 import MyProjectCard from "./components/MyProjectCard";
-import img_1 from './img1.png'
+import img_1 from './img1new.png'
 import img_2 from './img2.png'
 import img_3 from './img3.png'
 import img_4 from './img4.png'
