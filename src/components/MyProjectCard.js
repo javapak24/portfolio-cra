@@ -10,7 +10,7 @@ import {
 } from 'semantic-ui-react'
 
 const MyProjectCard = ({card}) => (
-  <Card centered>
+  <Card centered style = {{margin:'8px', padding: '8px' , height: '400px'}}>
     <Image src= {card.image} wrapped ui={false} />
     <CardContent>
       <CardHeader>{card.name}</CardHeader>
