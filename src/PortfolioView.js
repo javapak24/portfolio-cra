@@ -13,6 +13,20 @@ import img_8 from './img8.png'
 
 function PortfolioView() {
   const projects = [
+  {
+    name:'Black Belt Boxing Website',
+    image: img_1,
+    description: 'Freelance project creating a website for my local boxing gym',
+    gitUrl: 'https://github.com/javapak24/black-belt-boxing',
+    liveViewUrl: 'https://javapak24.github.io/black-belt-boxing/#/'
+  },
+  {
+    name:'S3 Image Upload Manager',
+    image: img_1,
+    description: 'A project that allows the user to upload images from their device to an S3 bucket and view objects in the same bucket. Frontend hosted in a seperate S3 bucket and backend hosted on a EC2 server',
+    gitUrl: 'https://github.com/javapak24/s3final',
+    liveViewUrl: 'https://s3uploadclient.s3.us-east-1.amazonaws.com/index.html'
+},
     {
       name:'MyFlix',
       image: img_1,
