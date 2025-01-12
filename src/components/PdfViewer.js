@@ -2,14 +2,18 @@ import { Button } from 'semantic-ui-react';
 import React, { useState } from 'react';
 
 const PdfViewer = ({ pdfUrl }) => {
-  const [currentPage, setCurrentPage] = useState(1);
   pdfUrl = './case-study-aws.pdf';
+  const [currentPage, setCurrentPage] = useState(1);
+  const [key, setKey] = useState(0); // Key to force iframe reload
+
   // Handler for changing pages
   const handlePageChange = (increment) => {
-    setCurrentPage((prevPage) => Math.max(1, prevPage + increment)); // Prevent page < 1
+    const newPage = Math.max(1, currentPage + increment); // Prevent page < 1
+    setCurrentPage(newPage);
+    setKey((prevKey) => prevKey + 1); // Update key to force iframe re-render
   };
 
-  // Update the iframe src with the current page
+  // Generate the URL with the current page
   const pdfWithParams = `${pdfUrl}#page=${currentPage}`;
 
   return (
@@ -18,11 +22,37 @@ const PdfViewer = ({ pdfUrl }) => {
         <Button
           onClick={() => handlePageChange(-1)}
           disabled={currentPage === 1}
+          // style={{
+          //   backgroundColor: '#333',
+          //   color: '#fff',
+          //   border: 'none',
+          //   borderRadius: '5px',
+          //   padding: '8px 16px',
+          //   fontSize: '14px',
+          //   cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+          //   marginRight: '10px',
+          // }}
         >
           Previous Page
         </Button>
-        <span style={{ margin: '0 10px' }}>Page: {currentPage}</span>
-        <Button onClick={() => handlePageChange(1)}>Next Page</Button>
+        <span style={{ margin: '0 10px', fontWeight: 'bold' }}>
+          Page: {currentPage}
+        </span>
+        <Button
+          onClick={() => handlePageChange(1)}
+          // style={{
+          //   backgroundColor: '#333',
+          //   color: '#fff',
+          //   border: 'none',
+          //   borderRadius: '5px',
+          //   padding: '8px 16px',
+          //   fontSize: '14px',
+          //   cursor: 'pointer',
+          //   marginLeft: '10px',
+          // }}
+        >
+          Next Page
+        </Button>
       </div>
       <div
         style={{
@@ -32,6 +62,8 @@ const PdfViewer = ({ pdfUrl }) => {
         }}
       >
         <iframe
+          className="responsive-iframe"
+          key={key} // Force iframe re-render when key changes
           src={pdfWithParams}
           title="PDF Viewer"
           style={{ width: '100%', height: '600px', border: 'none' }}
