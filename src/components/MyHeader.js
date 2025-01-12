@@ -6,7 +6,16 @@ export default function MyHeader() {
   return (
     <div>
       <Menu fixed="top" inverted>
-        <Container>
+        <Container
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            textAlign: 'center',
+            listStyle: 'none',
+            overflow: 'auto',
+          }}
+        >
+          {' '}
           <Menu.Item as="a" href="#/" header>
             <Image size="mini" src={logo} style={{ marginRight: '1.5em' }} />
             Javapak

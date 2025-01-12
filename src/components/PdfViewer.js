@@ -8,7 +8,10 @@ const PdfViewer = ({ pdfUrl }) => {
       width="100%"
       height="750px"
       style={{ border: 'none' }}
-      title="PDF Viewer"
+      title="Case Study AWS"
+      scrolling="yes"
+      display="block"
+      overflow="auto"
     />
   );
 };
