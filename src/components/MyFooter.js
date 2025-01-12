@@ -1,18 +1,18 @@
-import React from 'react'
-import { Icon } from 'semantic-ui-react'
+import React from 'react';
+import { Icon } from 'semantic-ui-react';
 
 const MyFooter = () => (
   <div>
-    <a href='https://facebook.com/' target='_blank'>
-    <Icon bordered color='teal' link name='facebook' />
+    <a href="https://facebook.com/" target="_blank">
+      <Icon bordered color="teal" link name="facebook" />
     </a>
-    <a href='https://linkedin.com/' target='_blank'>
-    <Icon bordered color='teal' link name='linkedin'/>
+    <a href="www.linkedin.com/in/muhammad-java24" target="_blank">
+      <Icon bordered color="teal" link name="linkedin" />
     </a>
-    <a href='https://x.com/?lang=en' target='_blank'>
-    <Icon bordered color='teal' link name='twitter'/>
+    <a href="https://x.com/?lang=en" target="_blank">
+      <Icon bordered color="teal" link name="twitter" />
     </a>
   </div>
-)
+);
 
-export default MyFooter
+export default MyFooter;
