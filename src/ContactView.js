@@ -16,7 +16,7 @@ export default function ContactView() {
             Email: ajava2424@gmail.com
           </a>
           <br></br>
-          <a href="www.linkedin.com/in/muhammad-java24" target="_blank">
+          <a href="https://www.linkedin.com/in/muhammad-java24" target="_blank">
             LinkedIn : www.linkedin.com/in/muhammad-java24
           </a>
         </Segment>

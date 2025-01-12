@@ -6,7 +6,7 @@ const MyFooter = () => (
     <a href="https://facebook.com/" target="_blank">
       <Icon bordered color="teal" link name="facebook" />
     </a>
-    <a href="www.linkedin.com/in/muhammad-java24" target="_blank">
+    <a href="https://www.linkedin.com/in/muhammad-java24" target="_blank">
       <Icon bordered color="teal" link name="linkedin" />
     </a>
     <a href="https://x.com/?lang=en" target="_blank">
