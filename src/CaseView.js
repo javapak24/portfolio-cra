@@ -11,7 +11,17 @@ export default function CaseView() {
         <MyHeader></MyHeader>
         <Segment>
           <a href="/case-study-aws.pdf" class="resbutton" download>
-            Click Here to download My Case Study
+            Click Here to Download a PDF of My Case Study
+          </a>
+        </Segment>
+        <Segment>
+          <a
+            href="/case-study-aws.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none' }}
+          >
+            Click Here to Open a PDF of My Case Study
           </a>
         </Segment>
         <PdfViewer></PdfViewer>
