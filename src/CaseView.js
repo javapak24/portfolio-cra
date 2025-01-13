@@ -10,7 +10,11 @@ export default function CaseView() {
       <Container text style={{ marginTop: '7em' }}>
         <MyHeader></MyHeader>
         <Segment>
-          <a href="/case-study-aws.pdf" class="resbutton" download>
+          <a
+            href="/portfolio-cra/case-study-aws.pdf"
+            class="resbutton"
+            download
+          >
             Click Here to Download a PDF of My Case Study!
           </a>
         </Segment>
