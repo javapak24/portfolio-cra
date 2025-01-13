@@ -3,15 +3,15 @@ import { Icon } from 'semantic-ui-react';
 
 const MyFooter = () => (
   <div>
-    <a href="https://facebook.com/" target="_blank">
+    {/* <a href="https://facebook.com/" target="_blank">
       <Icon bordered color="teal" link name="facebook" />
-    </a>
+    </a> */}
     <a href="https://www.linkedin.com/in/muhammad-java24" target="_blank">
       <Icon bordered color="teal" link name="linkedin" />
     </a>
-    <a href="https://x.com/?lang=en" target="_blank">
+    {/* <a href="https://x.com/?lang=en" target="_blank">
       <Icon bordered color="teal" link name="twitter" />
-    </a>
+    </a> */}
   </div>
 );
 

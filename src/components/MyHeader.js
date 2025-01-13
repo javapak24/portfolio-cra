@@ -30,7 +30,7 @@ export default function MyHeader() {
             Contact
           </Menu.Item>
           <Menu.Item as="a" href="#/casestudy">
-            Case Study
+            Case Studies
           </Menu.Item>
         </Container>
       </Menu>
