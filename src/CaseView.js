@@ -19,7 +19,7 @@ export default function CaseView() {
         <Grid columns={3} divided>
           <GridRow>
             <GridColumn>
-              <SegmentGroup>
+              <SegmentGroup style={{ margin: '20px' }}>
                 <h2>Case Study for AWS S3 File Upload Project</h2>
                 <Segment>
                   <a
@@ -46,7 +46,7 @@ export default function CaseView() {
               ></PdfViewer>
             </GridColumn>
             <GridColumn>
-              <SegmentGroup>
+              <SegmentGroup style={{ margin: '20px' }}>
                 <h2>
                   Case Study for my freelance Black Belt Boxing Website Project
                 </h2>
@@ -72,6 +72,33 @@ export default function CaseView() {
               </SegmentGroup>
               <PdfViewer
                 pdfUrl={'/portfolio-cra/case-study-bbb.pdf'}
+              ></PdfViewer>
+            </GridColumn>
+            <GridColumn>
+              <SegmentGroup style={{ margin: '20px' }}>
+                <h2>Case Study for my Twilio Project</h2>
+                <Segment>
+                  <a
+                    href="/portfolio-cra/case-study-twilio.pdf"
+                    class="resbutton"
+                    download
+                  >
+                    Click Here to Download a PDF of My Case Study!
+                  </a>
+                </Segment>
+                <Segment>
+                  <a
+                    href="/portfolio-cra/case-study-twilio.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Click Here to Open a PDF of My Case Study!
+                  </a>
+                </Segment>
+              </SegmentGroup>
+              <PdfViewer
+                pdfUrl={'/portfolio-cra/case-study-twilio.pdf'}
               ></PdfViewer>
             </GridColumn>
           </GridRow>
