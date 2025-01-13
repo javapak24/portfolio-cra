@@ -14,16 +14,6 @@ export default function CaseView() {
             Click Here to Download a PDF of My Case Study
           </a>
         </Segment>
-        <Segment>
-          <a
-            href="/case-study-aws.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ textDecoration: 'none' }}
-          >
-            Click Here to Open a PDF of My Case Study
-          </a>
-        </Segment>
         <PdfViewer></PdfViewer>
         <MyFooter></MyFooter>
       </Container>
