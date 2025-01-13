@@ -62,3 +62,9 @@
   -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
   overflow: auto; /* Ensure scrolling works on mobile */
 }
+
+@media (max-width: 768px) {
+  .responsive-iframe {
+    display: none;
+  }
+}

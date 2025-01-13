@@ -41,7 +41,9 @@ export default function CaseView() {
                   </a>
                 </Segment>
               </SegmentGroup>
-              <PdfViewer pdfUrl={'/case-study-aws.pdf'}></PdfViewer>
+              <PdfViewer
+                pdfUrl={'/portfolio-cra/case-study-aws.pdf'}
+              ></PdfViewer>
             </GridColumn>
             <GridColumn>
               <SegmentGroup>
@@ -68,7 +70,9 @@ export default function CaseView() {
                   </a>
                 </Segment>
               </SegmentGroup>
-              <PdfViewer pdfUrl={'/case-study-bbb.pdf'}></PdfViewer>
+              <PdfViewer
+                pdfUrl={'/portfolio-cra/case-study-bbb.pdf'}
+              ></PdfViewer>
             </GridColumn>
           </GridRow>
         </Grid>
