@@ -20,7 +20,11 @@ export default function CaseView() {
           <GridRow>
             <GridColumn>
               <SegmentGroup style={{ margin: '20px' }}>
-                <h2>Case Study for AWS S3 File Upload Project</h2>
+                <h2>
+                  <a href="#/case-study-aws">
+                    Case Study for AWS S3 File Upload Project
+                  </a>
+                </h2>
                 <Segment>
                   <a
                     href="/portfolio-cra/case-study-aws.pdf"
@@ -48,7 +52,10 @@ export default function CaseView() {
             <GridColumn>
               <SegmentGroup style={{ margin: '20px' }}>
                 <h2>
-                  Case Study for my freelance Black Belt Boxing Website Project
+                  <a href="#/case-study-bbb">
+                    Case Study for my Freelance Black Belt Boxing Website
+                    Project
+                  </a>
                 </h2>
                 <Segment>
                   <a
@@ -76,7 +83,11 @@ export default function CaseView() {
             </GridColumn>
             <GridColumn>
               <SegmentGroup style={{ margin: '20px' }}>
-                <h2>Case Study for my Twilio Project</h2>
+                <h2>
+                  <a href="#/case-study-twilio">
+                    Case Study for my Twilio Project
+                  </a>
+                </h2>
                 <Segment>
                   <a
                     href="/portfolio-cra/case-study-twilio.pdf"
