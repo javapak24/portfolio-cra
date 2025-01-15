@@ -110,7 +110,7 @@ function PortfolioView() {
         <Header>My Portfolio</Header>
         <Segment>
           <a
-            href="/Muhammad-Java-resume-1_11_25.pdf"
+            href="/portfolio-cra/Muhammad-Java-resume-1_11_25.pdf"
             class="resbutton"
             download
           >
