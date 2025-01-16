@@ -14,6 +14,7 @@ import img_8 from './img8.png';
 import img_9 from './img9.png';
 import img_10 from './img10.png';
 import ImageCarousel from './components/ImageCarousel';
+import { Segment } from 'semantic-ui-react';
 
 export default function Home() {
   let images = [
@@ -37,6 +38,9 @@ export default function Home() {
       <MyMain style={{ margin: '20px' }} />
       <div>
         <h2 style={{ margin: '20px' }}>My Projects</h2>
+        <Segment style={{ margin: '20px' }}>
+          <a href="#/portfolio">Click Here to Head to My Portfolio Page</a>
+        </Segment>
         <ImageCarousel
           images={images}
           style={{ border: 'solid', margin: '20px' }}
